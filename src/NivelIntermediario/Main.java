@@ -27,7 +27,17 @@ public class Main {
         //Objeto 4 - Hinata
         Hyuuga Hinata = new Hyuuga();
         Hinata.nome = "Hinata Hyuga";
-        Hinata.idade = 150;
+        Hinata.idade = 15;
         System.out.println(Hinata.ativarByakugan());
+
+        //Objeto 5 - Boruto
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Hyuga Uzumaki";
+        Boruto.idade = 14;
+        System.out.println(Boruto.apresentaNinja());
+        Boruto.ativarKarma();
+        Boruto.ModoSabioAtivado();
+        Boruto.ativarJougan();
+
     }
 }
